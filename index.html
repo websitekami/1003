@@ -1,0 +1,781 @@
+<html class="scroll-smooth" lang="id">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   Portofolio Joki Tugas - Desktop &amp; Mobile Versi
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&amp;display=swap" rel="stylesheet"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <style>
+   body {
+    font-family: "Poppins", sans-serif;
+   }
+
+   /* Custom scrollbar for testimonial container */
+   .scrollbar-thin::-webkit-scrollbar {
+    height: 6px;
+   }
+   .scrollbar-thin::-webkit-scrollbar-track {
+    background: transparent;
+   }
+   .scrollbar-thin::-webkit-scrollbar-thumb {
+    background-color: #6366f1;
+    border-radius: 10px;
+   }
+
+   /* WhatsApp floating button */
+   #whatsapp-float {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    z-index: 1000;
+    background-color: #25d366;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+   }
+   #whatsapp-float:hover {
+    background-color: #1ebe57;
+   }
+   #whatsapp-float i {
+    color: white;
+    font-size: 28px;
+  }
+  </style>
+ </head>
+ <body class="bg-gray-50 text-gray-800">
+  <!-- Desktop Version -->
+  <div class="hidden md:block">
+   <header class="bg-white shadow-md fixed w-full z-30">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+     <a class="text-2xl font-bold text-indigo-600" href="#">
+      JOKI TERBALIK
+     </a>
+     <nav aria-label="Desktop navigation" class="flex space-x-8 font-medium text-gray-700">
+      <a class="hover:text-indigo-600 transition" href="#home-desktop">
+       Beranda
+      </a>
+      <a class="hover:text-indigo-600 transition" href="#services-desktop">
+       Layanan
+      </a>
+      <a class="hover:text-indigo-600 transition" href="#portfolio-desktop">
+       Portofolio
+      </a>
+      <a class="hover:text-indigo-600 transition" href="#testimonials-desktop">
+       Testimoni
+      </a>
+      <a class="hover:text-indigo-600 transition" href="#profil-penjoki-desktop">
+       Profil Penjoki
+      </a>
+     </nav>
+    </div>
+   </header>
+   <main class="pt-20 max-w-7xl mx-auto px-6">
+    <!-- Hero Section Desktop -->
+    <section aria-label="Beranda Desktop" class="bg-gradient-to-r from-indigo-700 to-indigo-500 text-white rounded-2xl p-16 shadow-lg" id="home-desktop">
+     <div class="flex items-center space-x-12">
+      <div class="w-1/2">
+       <h1 class="text-5xl font-extrabold leading-tight mb-6">
+        JOKI TERBALIK
+        <br/>
+        Cepat &amp; Terpercaya
+       </h1>
+       <p class="text-indigo-200 text-xl mb-10">
+        Butuh bantuan menyelesaikan tugas? Kami siap membantu dengan hasil terbaik dan tepat waktu.
+       </p>
+       <a class="inline-block bg-white text-indigo-600 font-semibold px-10 py-4 rounded-xl shadow-lg hover:bg-indigo-50 transition" href="#profil-penjoki-desktop">
+        Lihat Profil Penjoki
+       </a>
+      </div>
+      <div class="w-1/2">
+       <img alt="Ilustrasi seorang mahasiswa sedang dibantu menyelesaikan tugas oleh seorang joki tugas profesional dengan laptop dan buku di meja, versi desktop" class="rounded-xl shadow-lg w-full object-cover" height="400" src="Profil.jpg" width="600"/>
+      </div>
+     </div>
+    </section>
+    <!-- Services Desktop -->
+    <section aria-label="Layanan Desktop" class="py-20" id="services-desktop">
+     <h2 class="text-4xl font-bold text-center mb-16 text-gray-900">
+      Layanan Kami
+     </h2>
+     <div class="grid grid-cols-3 gap-12">
+      <article class="bg-white rounded-3xl shadow-lg p-10 text-center hover:shadow-indigo-400 transition">
+       <i class="fas fa-file-alt text-indigo-600 text-6xl mb-8"></i>
+       <h3 class="text-2xl font-semibold mb-4">
+        Joki Tugas Kuliah
+       </h3>
+       <p class="text-gray-700 text-lg">
+        Membantu menyelesaikan tugas kuliah dari berbagai mata pelajaran dengan kualitas terbaik.
+       </p>
+      </article>
+      <article class="bg-white rounded-3xl shadow-lg p-10 text-center hover:shadow-indigo-400 transition">
+       <i class="fas fa-laptop-code text-indigo-600 text-6xl mb-8"></i>
+       <h3 class="text-2xl font-semibold mb-4">
+        Joki Pemrograman
+       </h3>
+       <p class="text-gray-700 text-lg">
+        Menyelesaikan tugas pemrograman, debugging, dan pembuatan aplikasi sesuai kebutuhan Anda.
+       </p>
+      </article>
+      <article class="bg-white rounded-3xl shadow-lg p-10 text-center hover:shadow-indigo-400 transition">
+       <i class="fas fa-book-reader text-indigo-600 text-6xl mb-8"></i>
+       <h3 class="text-2xl font-semibold mb-4">
+        Joki Skripsi &amp; Makalah
+       </h3>
+       <p class="text-gray-700 text-lg">
+        Membantu pembuatan skripsi, makalah, dan laporan dengan riset dan penulisan yang rapi.
+       </p>
+      </article>
+      <article class="bg-white rounded-3xl shadow-lg p-10 text-center hover:shadow-indigo-400 transition">
+       <i class="fas fa-chart-line text-indigo-600 text-6xl mb-8"></i>
+       <h3 class="text-2xl font-semibold mb-4">
+        Joki Presentasi
+       </h3>
+       <p class="text-gray-700 text-lg">
+        Membuat dan mendesain presentasi menarik dan profesional untuk tugas atau seminar.
+       </p>
+      </article>
+      <article class="bg-white rounded-3xl shadow-lg p-10 text-center hover:shadow-indigo-400 transition">
+       <i class="fas fa-file-pdf text-indigo-600 text-6xl mb-8"></i>
+       <h3 class="text-2xl font-semibold mb-4">
+        Joki PDF &amp; Dokumen
+       </h3>
+       <p class="text-gray-700 text-lg">
+        Membantu mengedit, mengonversi, dan menyusun dokumen PDF dan format lainnya.
+       </p>
+      </article>
+      <article class="bg-white rounded-3xl shadow-lg p-10 text-center hover:shadow-indigo-400 transition">
+       <i class="fas fa-headset text-indigo-600 text-6xl mb-8"></i>
+       <h3 class="text-2xl font-semibold mb-4">
+        Konsultasi Tugas
+       </h3>
+       <p class="text-gray-700 text-lg">
+        Memberikan konsultasi dan bimbingan agar Anda bisa memahami materi dan tugas dengan mudah.
+       </p>
+      </article>
+      <article class="bg-white rounded-3xl shadow-lg p-10 text-center hover:shadow-indigo-400 transition">
+       <i class="fab fa-whatsapp text-green-600 text-6xl mb-8"></i>
+       <h3 class="text-2xl font-semibold mb-4">
+        Layanan WhatsApp
+       </h3>
+       <p class="text-gray-700 text-lg">
+        Hubungi kami langsung melalui WhatsApp untuk konsultasi cepat dan layanan terbaik.
+       </p>
+      </article>
+     </div>
+    </section>
+    <!-- Portfolio Desktop -->
+    <section aria-label="Portofolio Desktop" class="bg-indigo-50 py-20 rounded-3xl px-12 shadow-inner" id="portfolio-desktop">
+     <h2 class="text-4xl font-bold text-center mb-16 text-indigo-900">
+      Portofolio Kami
+     </h2>
+     <div class="grid grid-cols-3 gap-10">
+      <article class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-indigo-400 transition">
+       <img alt="Screenshot tugas pemrograman Python berupa kode dan hasil output program di layar laptop, versi desktop" class="w-full h-48 object-cover" height="400" src="1.jpg" width="600"/>
+       <div class="p-6">
+        <h3 class="font-semibold text-xl mb-3">
+         Tugas Pemrograman Python
+        </h3>
+        <p class="text-gray-700 text-base">
+         Menyelesaikan tugas pemrograman Python dengan algoritma dan logika yang efisien.
+        </p>
+       </div>
+      </article>
+      <article class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-indigo-400 transition">
+       <img alt="Halaman depan makalah ilmiah yang rapi dengan judul dan daftar isi yang jelas, versi desktop" class="w-full h-48 object-cover" height="400" src="2.jpg" width="600"/>
+       <div class="p-6">
+        <h3 class="font-semibold text-xl mb-3">
+         Makalah Ilmiah
+        </h3>
+        <p class="text-gray-700 text-base">
+         Pembuatan makalah ilmiah dengan riset mendalam dan tata bahasa yang baik.
+        </p>
+       </div>
+      </article>
+      <article class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-indigo-400 transition">
+       <img alt="Slide presentasi PowerPoint dengan desain modern dan warna menarik, versi desktop" class="w-full h-48 object-cover" height="400" src="3.jpg" width="600"/>
+       <div class="p-6">
+        <h3 class="font-semibold text-xl mb-3">
+         Presentasi PowerPoint
+        </h3>
+        <p class="text-gray-700 text-base">
+         Desain presentasi profesional yang menarik dan mudah dipahami.
+        </p>
+       </div>
+      </article>
+      <article class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-indigo-400 transition">
+       <img alt="Halaman laporan skripsi dengan struktur yang rapi dan format akademik, versi desktop" class="w-full h-48 object-cover" height="400" src="4.jpg" width="600"/>
+       <div class="p-6">
+        <h3 class="font-semibold text-xl mb-3">
+         Laporan Skripsi
+        </h3>
+        <p class="text-gray-700 text-base">
+         Penyusunan laporan skripsi dengan format akademik dan isi yang lengkap.
+        </p>
+       </div>
+      </article>
+      <article class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-indigo-400 transition">
+       <img alt="Dokumen PDF yang terorganisir dengan halaman dan isi yang mudah dibaca, versi desktop" class="w-full h-48 object-cover" height="400" src="5.jpg" width="600"/>
+       <div class="p-6">
+        <h3 class="font-semibold text-xl mb-3">
+         Dokumen PDF
+        </h3>
+        <p class="text-gray-700 text-base">
+         Pengeditan dan penyusunan dokumen PDF yang rapi dan profesional.
+        </p>
+       </div>
+      </article>
+      <article class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-indigo-400 transition">
+       <img alt="Ilustrasi konsultasi online antara mahasiswa dan joki tugas melalui video call, versi desktop" class="w-full h-48 object-cover" height="400" src="6.jpg" width="600"/>
+       <div class="p-6">
+        <h3 class="font-semibold text-xl mb-3">
+         Konsultasi Online
+        </h3>
+        <p class="text-gray-700 text-base">
+         Sesi konsultasi online untuk membantu memahami dan menyelesaikan tugas.
+        </p>
+       </div>
+      </article>
+     </div>
+    </section>
+    <!-- Testimonials Desktop -->
+    <section aria-label="Testimoni Desktop" class="max-w-7xl mx-auto px-6 py-24 bg-black shadow-2xl mt-20 border-4" id="testimonials-desktop">
+     <h2 class="text-5xl font-extrabold text-center mb-20 tracking-widest text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 via-purple-500 to-pink-500 drop-shadow-lg">
+      Testimoni Pelanggan
+     </h2>
+     <div aria-label="Daftar testimoni pelanggan" class="relative flex space-x-8 overflow-x-auto scrollbar-thin snap-x snap-mandatory px-4 sm:px-0" tabindex="0">
+      <article aria-labelledby="testimonial-1-name" class="snap-center flex-shrink-0 w-80 bg-gradient-to-br from-indigo-900 via-indigo-800 to-indigo-700 rounded-3xl shadow-2xl p-10 flex flex-col items-center text-center transform transition-transform hover:scale-105 hover:shadow-indigo-500/70" role="group">
+       <p class="text-lg italic mb-6 leading-relaxed text-indigo-200 drop-shadow-md">
+        “JokiTugas sangat membantu saya menyelesaikan tugas pemrograman dengan cepat dan hasilnya memuaskan!”
+       </p>
+       <h4 class="font-bold text-2xl tracking-wide text-indigo-300 drop-shadow-md" id="testimonial-1-name">
+        Rizky Pratama
+       </h4>
+       <span class="text-sm opacity-70 drop-shadow-md mb-4">
+        Mahasiswa Teknik Informatika
+       </span>
+       <div aria-label="Rating 4.5 dari 5" class="flex space-x-1 text-yellow-400">
+        <i aria-hidden="true" class="fas fa-star"></i>
+        <i aria-hidden="true" class="fas fa-star"></i>
+        <i aria-hidden="true" class="fas fa-star"></i>
+        <i aria-hidden="true" class="fas fa-star"></i>
+        <i aria-hidden="true" class="fas fa-star-half-alt"></i>
+       </div>
+      </article>
+      <article aria-labelledby="testimonial-2-name" class="snap-center flex-shrink-0 w-80 bg-gradient-to-br from-pink-900 via-pink-800 to-pink-700 rounded-3xl shadow-2xl p-10 flex flex-col items-center text-center transform transition-transform hover:scale-105 hover:shadow-pink-500/70" role="group">
+       <p class="text-lg italic mb-6 leading-relaxed text-pink-200 drop-shadow-md">
+        “Layanan joki skripsi yang sangat profesional dan membantu saya lulus tepat waktu.”
+       </p>
+       <h4 class="font-bold text-2xl tracking-wide text-pink-300 drop-shadow-md" id="testimonial-2-name">
+        Sari Wulandari
+       </h4>
+       <span class="text-sm opacity-70 drop-shadow-md mb-4">
+        Mahasiswa Ekonomi
+       </span>
+       <div aria-label="Rating 5 dari 5" class="flex space-x-1 text-yellow-400">
+        <i aria-hidden="true" class="fas fa-star"></i>
+        <i aria-hidden="true" class="fas fa-star"></i>
+        <i aria-hidden="true" class="fas fa-star"></i>
+        <i aria-hidden="true" class="fas fa-star"></i>
+        <i aria-hidden="true" class="fas fa-star"></i>
+       </div>
+      </article>
+      <article aria-labelledby="testimonial-3-name" class="snap-center flex-shrink-0 w-80 bg-gradient-to-br from-green-900 via-green-800 to-green-700 rounded-3xl shadow-2xl p-10 flex flex-col items-center text-center transform transition-transform hover:scale-105 hover:shadow-green-500/70" role="group">
+       <p class="text-lg italic mb-6 leading-relaxed text-green-200 drop-shadow-md">
+        “Presentasi yang dibuat sangat menarik dan membantu saya mendapatkan nilai A. Terima kasih!”
+       </p>
+       <h4 class="font-bold text-2xl tracking-wide text-green-300 drop-shadow-md" id="testimonial-3-name">
+        Andi Saputra
+       </h4>
+       <span class="text-sm opacity-70 drop-shadow-md mb-4">
+        Mahasiswa Manajemen
+       </span>
+       <div aria-label="Rating 4.5 dari 5" class="flex space-x-1 text-yellow-400">
+        <i aria-hidden="true" class="fas fa-star"></i>
+        <i aria-hidden="true" class="fas fa-star"></i>
+        <i aria-hidden="true" class="fas fa-star"></i>
+        <i aria-hidden="true" class="fas fa-star-half-alt"></i>
+        <i aria-hidden="true" class="fas fa-star"></i>
+       </div>
+      </article>
+      <article aria-labelledby="testimonial-4-name" class="snap-center flex-shrink-0 w-80 bg-gradient-to-br from-purple-900 via-purple-800 to-purple-700 rounded-3xl shadow-2xl p-10 flex flex-col items-center text-center transform transition-transform hover:scale-105 hover:shadow-purple-500/70" role="group">
+       <p class="text-lg italic mb-6 leading-relaxed text-purple-200 drop-shadow-md">
+        “Tim JokiTugas sangat responsif dan hasil kerja mereka selalu melebihi ekspektasi saya.”
+       </p>
+       <h4 class="font-bold text-2xl tracking-wide text-purple-300 drop-shadow-md" id="testimonial-4-name">
+        Maya Putri
+       </h4>
+       <span class="text-sm opacity-70 drop-shadow-md mb-4">
+        Mahasiswa Teknik Sipil
+       </span>
+       <div aria-label="Rating 5 dari 5" class="flex space-x-1 text-yellow-400">
+        <i aria-hidden="true" class="fas fa-star"></i>
+        <i aria-hidden="true" class="fas fa-star"></i>
+        <i aria-hidden="true" class="fas fa-star"></i>
+        <i aria-hidden="true" class="fas fa-star"></i>
+        <i aria-hidden="true" class="fas fa-star"></i>
+       </div>
+      </article>
+      <article aria-labelledby="testimonial-5-name" class="snap-center flex-shrink-0 w-80 bg-gradient-to-br from-yellow-900 via-yellow-800 to-yellow-700 rounded-3xl shadow-2xl p-10 flex flex-col items-center text-center transform transition-transform hover:scale-105 hover:shadow-yellow-500/70" role="group">
+       <p class="text-lg italic mb-6 leading-relaxed text-yellow-200 drop-shadow-md">
+        “Berkat bantuan JokiTugas, saya bisa fokus belajar dan mendapatkan nilai terbaik di kelas.”
+       </p>
+       <h4 class="font-bold text-2xl tracking-wide text-yellow-300 drop-shadow-md" id="testimonial-5-name">
+        Dedi Santoso
+       </h4>
+       <span class="text-sm opacity-70 drop-shadow-md mb-4">
+        Mahasiswa Teknik Elektro
+       </span>
+       <div aria-label="Rating 4 dari 5" class="flex space-x-1 text-yellow-400">
+        <i aria-hidden="true" class="fas fa-star"></i>
+        <i aria-hidden="true" class="fas fa-star"></i>
+        <i aria-hidden="true" class="fas fa-star"></i>
+        <i aria-hidden="true" class="fas fa-star"></i>
+        <i aria-hidden="true" class="far fa-star"></i>
+       </div>
+      </article>
+     </div>
+    </section>
+    <!-- Profil Penjoki Desktop -->
+    <section aria-label="Profil Penjoki Desktop" class="bg-gradient-to-r from-indigo-700 via-indigo-600 to-indigo-500 text-white py-20 rounded-3xl px-12 shadow-2xl max-w-5xl mx-auto my-16" id="profil-penjoki-desktop">
+     <h2 class="text-4xl font-extrabold mb-12 text-center drop-shadow-lg">
+      Profil Penjoki
+     </h2>
+     <div class="flex flex-col md:flex-row md:space-x-16 space-y-12 md:space-y-0">
+      <article class="flex-1 bg-indigo-800 bg-opacity-80 rounded-3xl p-8 shadow-inner flex flex-col items-center text-center">
+       <div class="w-48 h-48 rounded-full overflow-hidden ring-4 ring-indigo-400 mb-6 drop-shadow-lg">
+        <img alt="Foto close-up pria muda profesional dengan latar belakang kantor modern, mengenakan kemeja putih dan tersenyum ramah, versi desktop" class="w-full h-full object-cover" height="400" src="alfin.jpg" width="400"/>
+       </div>
+       <h3 class="text-2xl font-bold mb-2">
+        ALFIN YAHYA ALIM
+       </h3>
+       <p class="text-indigo-200 mb-4 font-semibold">
+        Spesialis Joki Pemrograman &amp; Skripsi
+       </p>
+       <p class="text-indigo-100 leading-relaxed">
+        Alfin memiliki pengalaman lebih dari 5 tahun dalam membantu mahasiswa menyelesaikan tugas pemrograman dan skripsi dengan hasil yang memuaskan dan tepat waktu.
+       </p>
+       <div class="mt-6 flex space-x-6 text-indigo-300 text-xl">
+        <a aria-label="WhatsApp Arif Nugroho" class="hover:text-green-400 transition" href="https://wa.me/6281234567891" rel="noopener noreferrer" target="_blank">
+         <i class="fab fa-whatsapp"></i>
+        </a>
+        <a aria-label="Email Arif Nugroho" class="hover:text-indigo-100 transition" href="mailto:arif.nugroho@example.com">
+         <i class="fas fa-envelope"></i>
+        </a>
+        <a aria-label="LinkedIn Arif Nugroho" class="hover:text-indigo-100 transition" href="https://linkedin.com/in/arifnugroho" rel="noopener noreferrer" target="_blank">
+         <i class="fab fa-linkedin"></i>
+        </a>
+       </div>
+      </article>
+      <article class="flex-1 bg-indigo-800 bg-opacity-80 rounded-3xl p-8 shadow-inner flex flex-col items-center text-center">
+       <div class="w-48 h-48 rounded-full overflow-hidden ring-4 ring-indigo-400 mb-6 drop-shadow-lg">
+        <img alt="Foto close-up wanita muda profesional dengan latar belakang perpustakaan modern, mengenakan blazer biru dan tersenyum ramah, versi desktop" class="w-full h-full object-cover" height="400" src="kelvin.jpg" width="400"/>
+       </div>
+       <h3 class="text-2xl font-bold mb-2">
+        KELVIN THALIB
+       </h3>
+       <p class="text-indigo-200 mb-4 font-semibold">
+        Ahli Joki Presentasi &amp; PDF
+       </p>
+       <p class="text-indigo-100 leading-relaxed">
+        Kelvin berpengalaman dalam membuat presentasi menarik dan mengelola dokumen PDF dengan rapi, membantu mahasiswa tampil percaya diri dan mendapatkan nilai terbaik.
+       </p>
+       <div class="mt-6 flex space-x-6 text-indigo-300 text-xl">
+        <a aria-label="WhatsApp Dewi Lestari" class="hover:text-green-400 transition" href="https://wa.me/6281234567892" rel="noopener noreferrer" target="_blank">
+         <i class="fab fa-whatsapp"></i>
+        </a>
+        <a aria-label="Email Dewi Lestari" class="hover:text-indigo-100 transition" href="mailto:dewi.lestari@example.com">
+         <i class="fas fa-envelope"></i>
+        </a>
+        <a aria-label="LinkedIn Dewi Lestari" class="hover:text-indigo-100 transition" href="https://linkedin.com/in/dewilestari" rel="noopener noreferrer" target="_blank">
+         <i class="fab fa-linkedin"></i>
+        </a>
+       </div>
+      </article>
+     </div>
+    </section>
+   </main>
+   <footer class="bg-white border-t border-gray-200 py-6 mt-20">
+    <div class="max-w-7xl mx-auto px-6 text-center text-gray-600 text-sm">
+     © 2024 JokiTugas. Semua hak cipta dilindungi.
+    </div>
+   </footer>
+  </div>
+  <!-- Mobile Version -->
+  <div class="md:hidden">
+   <header class="bg-white shadow-md fixed w-full z-40">
+    <div class="max-w-xl mx-auto px-5 py-4 flex items-center justify-between">
+     <a class="text-2xl font-bold text-indigo-600 select-none" href="#">
+      JOKI TERBALIK
+     </a>
+     <button aria-label="Toggle menu" class="text-gray-700 text-3xl focus:outline-none" id="menu-btn-mobile">
+      <i class="fas fa-bars"></i>
+     </button>
+    </div>
+    <nav aria-label="Mobile menu" class="hidden bg-white border-t border-gray-200 shadow-md" id="mobile-menu">
+     <a class="block px-6 py-4 border-b border-gray-200 text-indigo-700 font-semibold hover:bg-indigo-50 transition" href="#home-mobile">
+      Beranda
+     </a>
+     <a class="block px-6 py-4 border-b border-gray-200 text-indigo-700 font-semibold hover:bg-indigo-50 transition" href="#services-mobile">
+      Layanan
+     </a>
+     <a class="block px-6 py-4 border-b border-gray-200 text-indigo-700 font-semibold hover:bg-indigo-50 transition" href="#portfolio-mobile">
+      Portofolio
+     </a>
+     <a class="block px-6 py-4 border-b border-gray-200 text-indigo-700 font-semibold hover:bg-indigo-50 transition" href="#testimonials-mobile">
+      Testimoni
+     </a>
+     <a class="block px-6 py-4 text-indigo-700 font-semibold hover:bg-indigo-50 transition" href="#profil-penjoki-mobile">
+      Profil Penjoki
+     </a>
+    </nav>
+   </header>
+   <main class="pt-20 max-w-xl mx-auto px-5">
+    <!-- Hero Section Mobile -->
+    <section aria-label="Beranda Mobile" class="bg-indigo-600 rounded-3xl text-white p-8 mt-6 shadow-lg" id="home-mobile">
+     <h1 class="text-3xl font-extrabold leading-tight mb-4">
+      Jasa Joki Tugas
+      <br/>
+      Cepat &amp; Terpercaya
+     </h1>
+     <p class="text-indigo-200 mb-6 text-base leading-relaxed">
+      Butuh bantuan menyelesaikan tugas? Kami siap membantu dengan hasil terbaik dan tepat waktu.
+     </p>
+     <img alt="Ilustrasi seorang mahasiswa sedang dibantu menyelesaikan tugas oleh seorang joki tugas profesional dengan laptop dan buku di meja, versi mobile" class="rounded-xl shadow-lg mb-6 w-full object-cover" height="400" src="https://storage.googleapis.com/a1aa/image/3079a030-d50d-4939-726e-c29ac23730fd.jpg" width="600"/>
+     <a class="block bg-white text-indigo-600 font-semibold text-center rounded-xl py-3 shadow-md hover:bg-indigo-50 transition" href="#profil-penjoki-mobile">
+      Lihat Profil Penjoki
+     </a>
+    </section>
+    <!-- Services Mobile -->
+    <section aria-label="Layanan Mobile" class="mt-14" id="services-mobile">
+     <h2 class="text-2xl font-bold text-indigo-900 mb-8 text-center">
+      Layanan Kami
+     </h2>
+     <div class="space-y-6">
+      <article class="bg-white rounded-2xl shadow-md p-6 flex items-center space-x-4 hover:shadow-indigo-400 transition">
+       <i class="fas fa-file-alt text-indigo-600 text-4xl flex-shrink-0"></i>
+       <div>
+        <h3 class="font-semibold text-lg mb-1">
+         Joki Tugas Kuliah
+        </h3>
+        <p class="text-gray-600 text-sm leading-relaxed">
+         Membantu menyelesaikan tugas kuliah dari berbagai mata pelajaran dengan kualitas terbaik.
+        </p>
+       </div>
+      </article>
+      <article class="bg-white rounded-2xl shadow-md p-6 flex items-center space-x-4 hover:shadow-indigo-400 transition">
+       <i class="fas fa-laptop-code text-indigo-600 text-4xl flex-shrink-0"></i>
+       <div>
+        <h3 class="font-semibold text-lg mb-1">
+         Joki Pemrograman
+        </h3>
+        <p class="text-gray-600 text-sm leading-relaxed">
+         Menyelesaikan tugas pemrograman, debugging, dan pembuatan aplikasi sesuai kebutuhan Anda.
+        </p>
+       </div>
+      </article>
+      <article class="bg-white rounded-2xl shadow-md p-6 flex items-center space-x-4 hover:shadow-indigo-400 transition">
+       <i class="fas fa-book-reader text-indigo-600 text-4xl flex-shrink-0"></i>
+       <div>
+        <h3 class="font-semibold text-lg mb-1">
+         Joki Skripsi &amp; Makalah
+        </h3>
+        <p class="text-gray-600 text-sm leading-relaxed">
+         Membantu pembuatan skripsi, makalah, dan laporan dengan riset dan penulisan yang rapi.
+        </p>
+       </div>
+      </article>
+      <article class="bg-white rounded-2xl shadow-md p-6 flex items-center space-x-4 hover:shadow-indigo-400 transition">
+       <i class="fas fa-chart-line text-indigo-600 text-4xl flex-shrink-0"></i>
+       <div>
+        <h3 class="font-semibold text-lg mb-1">
+         Joki Presentasi
+        </h3>
+        <p class="text-gray-600 text-sm leading-relaxed">
+         Membuat dan mendesain presentasi menarik dan profesional untuk tugas atau seminar.
+        </p>
+       </div>
+      </article>
+      <article class="bg-white rounded-2xl shadow-md p-6 flex items-center space-x-4 hover:shadow-indigo-400 transition">
+       <i class="fas fa-file-pdf text-indigo-600 text-4xl flex-shrink-0"></i>
+       <div>
+        <h3 class="font-semibold text-lg mb-1">
+         Joki PDF &amp; Dokumen
+        </h3>
+        <p class="text-gray-600 text-sm leading-relaxed">
+         Membantu mengedit, mengonversi, dan menyusun dokumen PDF dan format lainnya.
+        </p>
+       </div>
+      </article>
+      <article class="bg-white rounded-2xl shadow-md p-6 flex items-center space-x-4 hover:shadow-indigo-400 transition">
+       <i class="fas fa-headset text-indigo-600 text-4xl flex-shrink-0"></i>
+       <div>
+        <h3 class="font-semibold text-lg mb-1">
+         Konsultasi Tugas
+        </h3>
+        <p class="text-gray-600 text-sm leading-relaxed">
+         Memberikan konsultasi dan bimbingan agar Anda bisa memahami materi dan tugas dengan mudah.
+        </p>
+       </div>
+      </article>
+      <article class="bg-white rounded-2xl shadow-md p-6 flex items-center space-x-4 hover:shadow-indigo-400 transition">
+       <i class="fab fa-whatsapp text-green-600 text-4xl flex-shrink-0"></i>
+       <div>
+        <h3 class="font-semibold text-lg mb-1">
+         Layanan WhatsApp
+        </h3>
+        <p class="text-gray-600 text-sm leading-relaxed">
+         Hubungi kami langsung melalui WhatsApp untuk konsultasi cepat dan layanan terbaik.
+        </p>
+       </div>
+      </article>
+     </div>
+    </section>
+    <!-- Portfolio Mobile -->
+    <section aria-label="Portofolio Mobile" class="mt-14 bg-indigo-50 rounded-3xl p-6 shadow-inner" id="portfolio-mobile">
+     <h2 class="text-2xl font-bold text-indigo-900 mb-8 text-center">
+      Portofolio Kami
+     </h2>
+     <div class="space-y-6">
+      <article class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-indigo-400 transition">
+       <img alt="Screenshot tugas pemrograman Python berupa kode dan hasil output program di layar laptop, versi mobile" class="w-full h-48 object-cover" height="400" src="https://storage.googleapis.com/a1aa/image/515d46fa-96cb-4e44-eda7-671c33b76223.jpg" width="600"/>
+       <div class="p-4">
+        <h3 class="font-semibold text-lg mb-1">
+         Tugas Pemrograman Python
+        </h3>
+        <p class="text-gray-700 text-sm leading-relaxed">
+         Menyelesaikan tugas pemrograman Python dengan algoritma dan logika yang efisien.
+        </p>
+       </div>
+      </article>
+      <article class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-indigo-400 transition">
+       <img alt="Halaman depan makalah ilmiah yang rapi dengan judul dan daftar isi yang jelas, versi mobile" class="w-full h-48 object-cover" height="400" src="https://storage.googleapis.com/a1aa/image/27ee97f9-aec2-4074-56a1-6820ecf210bc.jpg" width="600"/>
+       <div class="p-4">
+        <h3 class="font-semibold text-lg mb-1">
+         Makalah Ilmiah
+        </h3>
+        <p class="text-gray-700 text-sm leading-relaxed">
+         Pembuatan makalah ilmiah dengan riset mendalam dan tata bahasa yang baik.
+        </p>
+       </div>
+      </article>
+      <article class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-indigo-400 transition">
+       <img alt="Slide presentasi PowerPoint dengan desain modern dan warna menarik, versi mobile" class="w-full h-48 object-cover" height="400" src="https://storage.googleapis.com/a1aa/image/89f777e5-e91b-4f4a-cfa1-304045b96503.jpg" width="600"/>
+       <div class="p-4">
+        <h3 class="font-semibold text-lg mb-1">
+         Presentasi PowerPoint
+        </h3>
+        <p class="text-gray-700 text-sm leading-relaxed">
+         Desain presentasi profesional yang menarik dan mudah dipahami.
+        </p>
+       </div>
+      </article>
+      <article class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-indigo-400 transition">
+       <img alt="Halaman laporan skripsi dengan struktur yang rapi dan format akademik, versi mobile" class="w-full h-48 object-cover" height="400" src="https://storage.googleapis.com/a1aa/image/64ad9a72-57b0-4e6c-8068-94a8f7bd9640.jpg" width="600"/>
+       <div class="p-4">
+        <h3 class="font-semibold text-lg mb-1">
+         Laporan Skripsi
+        </h3>
+        <p class="text-gray-700 text-sm leading-relaxed">
+         Penyusunan laporan skripsi dengan format akademik dan isi yang lengkap.
+        </p>
+       </div>
+      </article>
+      <article class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-indigo-400 transition">
+       <img alt="Dokumen PDF yang terorganisir dengan halaman dan isi yang mudah dibaca, versi mobile" class="w-full h-48 object-cover" height="400" src="https://storage.googleapis.com/a1aa/image/1dea028c-bb51-413e-8189-2195af4f1413.jpg" width="600"/>
+       <div class="p-4">
+        <h3 class="font-semibold text-lg mb-1">
+         Dokumen PDF
+        </h3>
+        <p class="text-gray-700 text-sm leading-relaxed">
+         Pengeditan dan penyusunan dokumen PDF yang rapi dan profesional.
+        </p>
+       </div>
+      </article>
+      <article class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-indigo-400 transition">
+       <img alt="Ilustrasi konsultasi online antara mahasiswa dan joki tugas melalui video call, versi mobile" class="w-full h-48 object-cover" height="400" src="https://storage.googleapis.com/a1aa/image/8f737b25-37fa-4830-0fa0-dec71110a8ee.jpg" width="600"/>
+       <div class="p-4">
+        <h3 class="font-semibold text-lg mb-1">
+         Konsultasi Online
+        </h3>
+        <p class="text-gray-700 text-sm leading-relaxed">
+         Sesi konsultasi online untuk membantu memahami dan menyelesaikan tugas.
+        </p>
+       </div>
+      </article>
+     </div>
+    </section>
+    <!-- Testimoni Mobile -->
+    <section aria-label="Testimoni Mobile" class="w-full max-w-md mt-14" id="testimonials-mobile">
+     <h2 class="text-3xl font-extrabold text-indigo-700 mb-10 text-center drop-shadow-md">
+      Testimoni Pelanggan
+     </h2>
+     <div class="space-y-8">
+      <article class="bg-white rounded-3xl shadow-lg p-6 flex items-center space-x-5 hover:shadow-indigo-500/50 transition-shadow duration-300">
+       <div>
+        <p class="text-gray-800 text-base mb-3 leading-relaxed italic before:content-['“'] after:content-['”'] before:text-indigo-400 after:text-indigo-400">
+         JokiTugas sangat membantu saya menyelesaikan tugas pemrograman dengan cepat dan hasilnya memuaskan!
+        </p>
+        <h4 class="font-semibold text-indigo-700 text-lg">
+         Rizky Pratama
+        </h4>
+        <span class="text-xs text-indigo-400 font-medium tracking-wide">
+         Mahasiswa Teknik Informatika
+        </span>
+       </div>
+      </article>
+      <article class="bg-white rounded-3xl shadow-lg p-6 flex items-center space-x-5 hover:shadow-indigo-500/50 transition-shadow duration-300">
+       <div>
+        <p class="text-gray-800 text-base mb-3 leading-relaxed italic before:content-['“'] after:content-['”'] before:text-indigo-400 after:text-indigo-400">
+         Layanan joki skripsi yang sangat profesional dan membantu saya lulus tepat waktu.
+        </p>
+        <h4 class="font-semibold text-indigo-700 text-lg">
+         Sari Wulandari
+        </h4>
+        <span class="text-xs text-indigo-400 font-medium tracking-wide">
+         Mahasiswa Ekonomi
+        </span>
+       </div>
+      </article>
+      <article class="bg-white rounded-3xl shadow-lg p-6 flex items-center space-x-5 hover:shadow-indigo-500/50 transition-shadow duration-300">
+       <div>
+        <p class="text-gray-800 text-base mb-3 leading-relaxed italic before:content-['“'] after:content-['”'] before:text-indigo-400 after:text-indigo-400">
+         Presentasi yang dibuat sangat menarik dan membantu saya mendapatkan nilai A. Terima kasih!
+        </p>
+        <h4 class="font-semibold text-indigo-700 text-lg">
+         Andi Saputra
+        </h4>
+        <span class="text-xs text-indigo-400 font-medium tracking-wide">
+         Mahasiswa Manajemen
+        </span>
+       </div>
+      </article>
+     </div>
+    </section>
+    <!-- Profil Penjoki Mobile -->
+    <section aria-label="Profil Penjoki Mobile" class="bg-indigo-600 text-white rounded-3xl p-8 mt-14 shadow-lg" id="profil-penjoki-mobile">
+     <h2 class="text-2xl font-bold mb-12 text-center drop-shadow-lg">
+      Profil Penjoki
+     </h2>
+     <div class="space-y-12">
+      <article class="flex flex-col items-center text-center space-y-6">
+       <div class="w-40 h-40 rounded-full overflow-hidden ring-4 ring-indigo-400 drop-shadow-lg">
+        <img alt="Foto close-up pria muda profesional dengan latar belakang kantor modern, mengenakan kemeja putih dan tersenyum ramah, versi mobile" class="w-full h-full object-cover" height="400" src="alfin.jpg" width="400"/>
+       </div>
+       <h3 class="text-xl font-bold">
+        ALFIN YAHYA ALIM
+       </h3>
+       <p class="text-indigo-200 font-semibold">
+        Spesialis Joki Pemrograman &amp; Skripsi
+       </p>
+       <p class="text-indigo-100 leading-relaxed px-4">
+        ALFIN memiliki pengalaman lebih dari 5 tahun dalam membantu mahasiswa menyelesaikan tugas pemrograman dan skripsi dengan hasil yang memuaskan dan tepat waktu.
+       </p>
+       <div class="flex space-x-8 text-indigo-300 text-2xl justify-center">
+        <a aria-label="WhatsApp Arif Nugroho" class="hover:text-green-400 transition" href="https://wa.me/6281234567891" rel="noopener noreferrer" target="_blank">
+         <i class="fab fa-whatsapp"></i>
+        </a>
+        <a aria-label="Email Arif Nugroho" class="hover:text-indigo-100 transition" href="mailto:arif.nugroho@example.com">
+         <i class="fas fa-envelope"></i>
+        </a>
+        <a aria-label="LinkedIn Arif Nugroho" class="hover:text-indigo-100 transition" href="https://linkedin.com/in/arifnugroho" rel="noopener noreferrer" target="_blank">
+         <i class="fab fa-linkedin"></i>
+        </a>
+       </div>
+      </article>
+      <article class="flex flex-col items-center text-center space-y-6">
+       <div class="w-40 h-40 rounded-full overflow-hidden ring-4 ring-indigo-400 drop-shadow-lg">
+        <img alt="Foto close-up wanita muda profesional dengan latar belakang perpustakaan modern, mengenakan blazer biru dan tersenyum ramah, versi mobile" class="w-full h-full object-cover" height="400" src="kelvin.jpg" width="400"/>
+       </div>
+       <h3 class="text-xl font-bold">
+        KELVIN THALIB
+       </h3>
+       <p class="text-indigo-200 font-semibold">
+        Ahli Joki Presentasi &amp; PDF
+       </p>
+       <p class="text-indigo-100 leading-relaxed px-4">
+        kelvin  berpengalaman dalam membuat presentasi menarik dan mengelola dokumen PDF dengan rapi, membantu mahasiswa tampil percaya diri dan mendapatkan nilai terbaik.
+       </p>
+       <div class="flex space-x-8 text-indigo-300 text-2xl justify-center">
+        <a aria-label="WhatsApp Dewi Lestari" class="hover:text-green-400 transition" href="https://wa.me/6281234567892" rel="noopener noreferrer" target="_blank">
+         <i class="fab fa-whatsapp"></i>
+        </a>
+        <a aria-label="Email Dewi Lestari" class="hover:text-indigo-100 transition" href="mailto:dewi.lestari@example.com">
+         <i class="fas fa-envelope"></i>
+        </a>
+        <a aria-label="LinkedIn Dewi Lestari" class="hover:text-indigo-100 transition" href="https://linkedin.com/in/dewilestari" rel="noopener noreferrer" target="_blank">
+         <i class="fab fa-linkedin"></i>
+        </a>
+       </div>
+      </article>
+     </div>
+    </section>
+   </main>
+   <footer class="bg-white border-t border-gray-200 py-6 mt-16 max-w-xl mx-auto px-5 text-center text-gray-600 text-sm select-none">
+    © 2024 JokiTugas. Semua hak cipta dilindungi.
+   </footer>
+  </div>
+
+  <!-- WhatsApp Floating Button -->
+  <a
+   id="whatsapp-float"
+   href="https://wa.link/w81mvj"
+   target="_blank"
+   rel="noopener noreferrer"
+   aria-label="Chat via WhatsApp"
+   title="Chat via WhatsApp"
+  >
+   <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <script>
+   // Mobile menu toggle
+   const menuBtnMobile = document.getElementById("menu-btn-mobile");
+   const mobileMenu = document.getElementById("mobile-menu");
+
+   menuBtnMobile.addEventListener("click", () => {
+    mobileMenu.classList.toggle("hidden");
+    menuBtnMobile.querySelector("i").classList.toggle("fa-bars");
+    menuBtnMobile.querySelector("i").classList.toggle("fa-times");
+   });
+
+   // Override form submit to open WhatsApp with prefilled message
+   const form = document.getElementById("contactForm");
+   if (form) {
+    form.addEventListener("submit", function (e) {
+     e.preventDefault();
+     const name = form.name.value.trim();
+     const email = form.email.value.trim();
+     const service = form.service.value;
+     const message = form.message.value.trim();
+
+     if (!name || !email || !service || !message) {
+      alert("Mohon lengkapi semua kolom sebelum mengirim.");
+      return;
+     }
+
+     const text = `Halo Joki Tugas, saya ingin bertanya tentang layanan *${service}*.\n\nNama: ${name}\nEmail: ${email}\nPesan: ${message}`;
+
+     // If service is Konsultasi Tugas, open two WhatsApp links in new tabs
+     if (service === "Konsultasi Tugas") {
+      const waUrl1 = `https://wa.link/w81mvj?text=${encodeURIComponent(text)}`;
+      const waUrl2 = `https://wa.link/w81mvj?text=${encodeURIComponent(text)}`;
+      window.open(waUrl1, "_blank");
+      window.open(waUrl2, "_blank");
+     } else {
+      const waUrl = `https://wa.link/w81mvj?text=${encodeURIComponent(text)}`;
+      window.open(waUrl, "_blank");
+     }
+    });
+   }
+  </script>
+ </body>
+</html>
